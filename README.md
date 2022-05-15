@@ -93,3 +93,25 @@ install (FILES hello.h DESTINATION "include")
 
 #### 项目目录/src下的CMakeLists.txt
 
+```
+include_directories(${CMAKE_SOURCE_DIR}/lib)
+add_executable(main main.c)
+target_link_libraries(main hello_static)
+```
+
+## 3 tag
+
+### 3.1 创建tag
+
+![image-20220516000832146](./img/image-20220516000832146.png)
+
+![image-20220516001009126](./img/image-20220516001009126.png)
+
+![image-20220516001152571](./img/image-20220516001152571.png)
+
+### 3.2 对应的zip包的下载地址
+
+![image-20220516001405296](./img/image-20220516001405296.png)
+
+
+
