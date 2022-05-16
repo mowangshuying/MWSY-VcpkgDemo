@@ -113,5 +113,11 @@ target_link_libraries(main hello_static)
 
 ![image-20220516001405296](./img/image-20220516001405296.png)
 
+## 4.vcpkg创建一个一个安装包项目
 
+```
+vcpkg create mwsy-vcpkgdemo https://github.com/mowangshuying/MWSY-VcpkgDemo/archive/refs/tags/1.0.zip mwsy-vcpkgdemo-1.0.zip
+```
+
+![image-20220516002330489](./img/image-20220516002330489.png)
 
