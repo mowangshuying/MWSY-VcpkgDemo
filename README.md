@@ -117,7 +117,7 @@ target_link_libraries(main hello_static)
 
 ### 4.1 创建mwsy-vcpkgdemo包
 
-```
+```shell
 vcpkg create mwsy-vcpkgdemo https://github.com/mowangshuying/MWSY-VcpkgDemo/archive/refs/tags/1.0.zip mwsy-vcpkgdemo-1.0.zip
 ```
 
@@ -125,4 +125,26 @@ vcpkg create mwsy-vcpkgdemo https://github.com/mowangshuying/MWSY-VcpkgDemo/arch
 
 ### 4.2 安装mwsy-vcpkgdemo包
 
+#### 前置工作，修改vcpkg.json,
+
+```json
+{
+    "name": "mwsy-vcpkgdemo",
+    "version-string": "1.0",
+    "homepage": "",
+    "description": "mwsy-vcpkgdemo.",
+    "dependencies": [{
+        "name": "vcpkg-cmake",
+        "host": true
+    }]
+}
+```
+
+
+
 ### 4.3 使用mwsy-vcpkgdemo包
+
+```shell
+vcpkg install mwsy-vcpkgdemo
+```
+
