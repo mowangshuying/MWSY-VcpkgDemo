@@ -148,3 +148,6 @@ vcpkg create mwsy-vcpkgdemo https://github.com/mowangshuying/MWSY-VcpkgDemo/arch
 vcpkg install mwsy-vcpkgdemo
 ```
 
+### 4.4 vs2019中使用mwsy-vcpkgdemo包
+
+ 
