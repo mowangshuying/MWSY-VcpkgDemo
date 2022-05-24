@@ -151,3 +151,5 @@ vcpkg install mwsy-vcpkgdemo
 ### 4.4 vs2019中使用mwsy-vcpkgdemo包
 
 引入相应头文件即可直接使用其中的相关函数，HelloFunc（）
+
+![image-20220524235317052](./img/image-20220524235317052.png)
