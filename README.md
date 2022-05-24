@@ -150,4 +150,4 @@ vcpkg install mwsy-vcpkgdemo
 
 ### 4.4 vs2019中使用mwsy-vcpkgdemo包
 
-引入相应头文件即可直接使用其中的相关函数
+引入相应头文件即可直接使用其中的相关函数，HelloFunc（）
